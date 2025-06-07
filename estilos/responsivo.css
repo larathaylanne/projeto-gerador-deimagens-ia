@@ -1,0 +1,49 @@
+@media (max-width: 767px) {
+    h1 {
+        font-size: 2em;
+        margin-top: 30px;
+    }
+    .p-sobre {
+        font-size: 16px;
+        margin-top: 0 15px;
+    }
+    .header-container {
+        padding: 0 15px;
+    }
+
+    .logo {
+        height: 40px;
+    }
+
+    .voltar-gerar img {
+        width: 70px;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .intro-div {
+        min-width: 100%;
+        padding: 15px;
+    }
+
+    .container-contatos {
+        flex-direction: column;
+    }
+    .container-contatos img {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 15px;
+    }
+
+    .gerar-div {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .comecar-button, .gerar-button {
+        padding: 122px 20px;
+    }
+}
