@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link rel="shortcut icon" href="assets/AImage-logo.png" type="image/x-icon">
+    <title>Descrever imagem</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+                <a href="index.html" class="voltar-gerar">
+            <img src="assets/image 1 (Traced).png" alt="Botão de voltar"></a>
+
+            <img class="logo" src="assets/AImage-logo.png" alt="Ilustração da logo da marca gerada por IA">
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <form id="formgerador" action="#" method="post">
+            <div class="gerar-div">
+                <h2 class="h2-gerar">
+                     Descreva o que você deseja ilustrar com nossa IA abaixo:
+                </h2>
+                <textarea name="descrition"id="descrition-text"></textarea>
+            <button class="gerar-button" type="submit" >GERAR</button>
+            </div>
+        </form>
+        <div id="resultado">
+            <div class="loader" style="display: none;">
+            <div class="bolinha-girando"></div>
+            <p>Gerando uma imagem mágica...</p>
+            </div>
+            <img id="imagem-gerada" style="display: none;">
+        </div>
+    </main>
+    <div class="footer-div">
+        <footer>
+        <p>&copy; 2025 todos os direitos reservados.</p>
+        <a class="contatos" href="sobre.html"> <br>Sobre a desenvolvedora</a>
+        <a class="contatos" href="contato.html">Deixe seu feedback</a>
+    </footer>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
