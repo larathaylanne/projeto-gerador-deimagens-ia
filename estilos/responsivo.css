@@ -38,6 +38,10 @@
         margin-bottom: 15px;
     }
 
+    .gerar-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
     .gerar-div {
         width: 90%;
         padding: 20px;

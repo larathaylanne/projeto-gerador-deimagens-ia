@@ -92,19 +92,22 @@ section {
 
 }
 
-.comecar-button {
+.comecar-button, .gerar-button {
     background-image: linear-gradient(to right, #913eaf, #48469B);
     border-radius: 2px;
-    padding: 15px;
+    padding: 10px 20px;
     color: aliceblue;
     text-decoration: none;
     display: inline-block;
     transition: transform 0.3s ease;
-    font-size: large;
+    font-size: clamp(14px, 2vw, 18px);
     padding: 20px;
+    width: auto;
+    max-width: 100%;
+    white-space: nowrap;
+    margin: auto;
 }
-
-.comecar-button:hover {
+.comecar-button:hover, .gerar-button:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
@@ -195,17 +198,6 @@ section {
     display: flex;
     position: relative;
     }
-
-    .gerar-button {
-    background-image: linear-gradient(to right, #2e2929, #2b2d2f);
-    border-radius: 2px;
-    padding: 10px;
-    color: aliceblue;
-    text-decoration: none;
-    margin: auto;
-    cursor: pointer;
-    width: fit-content;
-}
 
 .header-container {
     position: relative;
