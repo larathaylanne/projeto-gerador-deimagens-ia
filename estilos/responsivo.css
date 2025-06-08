@@ -26,9 +26,16 @@
         gap: 20px;
     }
 
-    .intro-div {
+    .container-imagens {
+        flex-direction: column;
+        padding: 100px 20px;
+    }
+
+    .intro-div, .images-div {
         min-width: 100%;
+        max-width: 100%;
         padding: 15px;
+        flex: 1 1 100%;
     }
 
     .container-contatos {
@@ -49,5 +56,40 @@
         padding: 122px 20px;
         width: 20%;
         padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: clamp(1.5rem, 4vw, 2rem);
+    }
+
+    .gerar-div {
+        width: 90%;
+        padding: 20px;
+    }
+    .container-imagens {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding: 5rem 5%;
+    }
+    .images-div img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .galeria-grid {
+        width: 95%;
+        max-width: 600px;
+    }
+    .footer-div {
+        padding: 2rem 5%;
+        flex-direction: column;
     }
 }
