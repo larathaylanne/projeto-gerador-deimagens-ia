@@ -3,6 +3,15 @@
         font-size: 2em;
         margin-top: 30px;
     }
+
+    main {
+        padding: 0 15px;
+        margin-top: 10px;
+    }
+
+    p {
+        padding: 20px;
+    }
     .p-sobre {
         font-size: 16px;
         margin-top: 0 15px;
@@ -57,6 +66,50 @@
         width: 20%;
         padding: 20px;
     }
+    .footer-div {
+        width: 100%;
+        margin: 0;
+        padding: 2rem 5%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .gerar-div {
+        max-width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        padding: 20px 10px;
+    }
+
+    .gerar-button {
+        padding: 12px 20px;
+        width: 100%;
+        max-width: 200px;
+        margin: 10px auto;
+    }
+
+    #descrition-text {
+        min-height: 80px;
+        margin: 10px auto;
+        display: block;
+    }
+
+    #resultado {
+        padding: 15px;
+    }
+    .loader {
+        padding: 10px;
+    }
+    .loader p {
+        font-size: 14px;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -67,10 +120,9 @@
     h2 {
         font-size: clamp(1.5rem, 4vw, 2rem);
     }
-
-    .gerar-div {
-        width: 90%;
-        padding: 20px;
+    .h2-gerar {
+        font-size: 1.2rem;
+        padding: 10px 0;
     }
     .container-imagens {
         display: flex;
