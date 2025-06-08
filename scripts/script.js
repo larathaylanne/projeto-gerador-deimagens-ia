@@ -18,7 +18,7 @@ document.getElementById('formgerador')
     setTimeout(function() {
         localStorage.setItem('descricaoImagem', textoDigitado);
 
-        window.location.href = "galeria.html";
+        window.location.href = "contato.html";
     }, 2000);
 
 }, 3000);
