@@ -36,8 +36,11 @@
     }
 
     .container-imagens {
-        flex-direction: column;
-        padding: 100px 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+        width: 360px;
     }
 
     .intro-div, .images-div {
@@ -75,6 +78,12 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        text-align: center;
+    }
+
+    .contatos {
+        margin: 8px 0;
+        width: 80%;
         text-align: center;
     }
     .gerar-div {
