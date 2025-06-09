@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     h1 {
         font-size: 2em;
         margin-top: 30px;
@@ -23,6 +23,8 @@
         align-items: center;
         padding: 15px 0;
         text-align: center;
+        flex-direction: column;
+        gap: 15px;
     }
 
     .logo {
@@ -63,6 +65,8 @@
         width: 70%;
         display: flex !important;
         flex-wrap: nowrap !important;
+        align-items: center;
+        flex-direction: column;
     }
     .container-contatos img {
         width: 60%;
@@ -128,7 +132,7 @@
     .loader p {
         font-size: 14px;
     }
-
+    
 }
 
 @media (max-width: 480px) {
