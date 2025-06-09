@@ -76,6 +76,11 @@
         flex-wrap: wrap;
     }
 
+    .contatos-button img {
+        width: 70px;
+        height: 70px;
+    }
+
 
     .comecar-button, .gerar-button {
         padding: 122px 20px;
